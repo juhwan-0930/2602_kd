@@ -124,6 +124,46 @@ body {
   height: 91px;
 }
 
+.inner > .con {
+  height: 100%;
+}
+
+.inner > .con > .logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.inner > .con > .logo > a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.inner_list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.inner_list > .list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.inner_list > .list > li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.inner_list > .list > li > a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .logo > a > img {
   width: 126px;
 }
