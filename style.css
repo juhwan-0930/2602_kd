@@ -251,7 +251,7 @@ body {
 
 .inner > .list-1-item {
   position: absolute;
-  top: 91px;
+  top: 93px;
   width: 100%;
   background-color: #fff;
   transform: translateY(-80px);
@@ -286,4 +286,38 @@ body {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+
+/* 헤더 */
+.header.active {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all .3s;
+}
+
+.header.active .inner > .con > .logo > a > img {
+  content: url(./imgs/img_header_logo.svg);
+}
+
+/* btn_link */
+.top_links > .con > .btn_link.active {
+  color: #1a1a1a;
+}
+
+/* inner_list */
+.inner_list.active > .list > li:not(.list-1) > a {
+  color: #1a1a1a;
+}
+
+/* util */
+.utils a,
+.utils span,
+.utils i {
+  color: #fff;
+}
+
+.header.active .utils a,
+.header.active .utils span,
+.header.active .utils i {
+  color: #1a1a1a;
 }
