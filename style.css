@@ -253,6 +253,7 @@ body {
   position: absolute;
   top: 93px;
   width: 100%;
+  padding-left: 244px;
   background-color: #fff;
   transform: translateY(-80px);
   transition: all 0.3s;
@@ -282,7 +283,67 @@ body {
   color: #ff730f;
 }
 
+.inner > .list-1-item > ul > li > a:hover {
+  color: #ff730f;
+}
+
 .list-1-item.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* 리스트 2 css */
+.list-2-item {
+  position: absolute;
+  background-color: #fff;
+  width: 2200px;
+  height: 213px;
+  top: 90px;
+  transform: translateY(-80px);
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.list-2-item > ul {
+  display: flex;
+  padding-left: 596px;
+  padding-top: 40px;
+}
+
+.list-2-item > ul > li {
+  padding: 0 44px;
+}
+
+.list-2-item > ul > li > a {
+  font-size: 17px;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.list-2-item > ul > li > ul {
+  display: block;
+  padding-top: 12px;
+}
+
+.list-2-item > ul > li > ul > li > a {
+  display: block;
+  font-size: 15px;
+  color: #4d4d4d;
+  padding: 8px 0;
+}
+
+.list-2-item a:hover {
+  color: #ff730f;
+}
+
+/* 리스트 2 js */
+.list-2 a.active {
+  color: #ff730f;
+}
+
+.list-2-item.active {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -292,7 +353,7 @@ body {
 .header.active {
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .header.active .inner > .con > .logo > a > img {
